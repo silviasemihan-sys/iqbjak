@@ -1,15 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ms">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IQBjak</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="IQBjak ialah permainan kuiz interaktif pengetahuan umum untuk semua peringkat umur.">
+  <title>IQBjak | Kuiz Pengetahuan Umum</title>
+  <style>
+    :root{--cream:#fff8e8;--green:#173f35;--orange:#e76f51;--gold:#f4c95d;--sage:#88b895;--white:#fff;--red:#c84f39}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:linear-gradient(160deg,#fffdf6,var(--cream));color:var(--green);font-family:Arial,sans-serif}.wrap{width:min(100% - 28px,900px);margin:auto;padding:28px 0 45px}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:32px}.logo{font-family:Georgia,serif;font-size:32px;font-weight:700}.score{display:flex;gap:10px}.pill{background:#fff;border:1px solid #ddd0b7;border-radius:14px;padding:10px 14px;font-weight:700;box-shadow:0 5px 18px #70522515}.hero{text-align:center;margin-bottom:24px}.hero small{letter-spacing:.18em;text-transform:uppercase;color:#5b8764;font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(42px,8vw,68px);margin:10px 0}.hero p{color:#53605a;font-size:18px}.categories{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:22px 0}.categories button,.option,#action{font:inherit;cursor:pointer}.categories button{border:1px solid #9ab9a1;background:#fff;border-radius:999px;padding:9px 15px;color:var(--green);font-weight:700}.categories button.active{background:#e7f3e5;border-color:#4f865d}.card{background:#ffffffdd;border:1px solid #eee3cf;border-radius:24px;padding:clamp(20px,5vw,38px);box-shadow:0 18px 50px #68471e20}.top{display:flex;justify-content:space-between;font-weight:700}.bar{height:7px;background:#e9e4da;border-radius:10px;margin:13px 0 22px;overflow:hidden}.bar span{display:block;height:100%;background:var(--gold);transition:width .25s}.tag{display:inline-block;border:1px solid #82bdd0;border-radius:20px;padding:5px 12px;color:#26718b;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}h2{font-size:clamp(23px,4vw,31px);line-height:1.3}.options{display:grid;gap:11px}.option{text-align:left;border:2px solid #e3ddd1;background:white;border-radius:13px;padding:15px;color:#293b35;font-size:17px}.option:hover,.option.selected{border-color:#d6a42c;background:#fff8dc}.option.correct{border-color:#4f9661;background:#e9f7e9}.option.wrong{border-color:var(--red);background:#fff0eb}.feedback{margin-top:14px;padding:12px;border-radius:10px;background:#eef6e9;line-height:1.45}.feedback.bad{background:#fff0eb;color:#873523}#action{width:100%;border:0;border-radius:13px;padding:16px;margin-top:16px;background:linear-gradient(90deg,#ffc83d,#efad23);color:#49380b;font-size:19px;font-weight:800}#action:disabled{opacity:.45;cursor:not-allowed}.result{text-align:center;padding:28px 0}.result .medal{font-size:70px}.hidden{display:none}@media(max-width:560px){.wrap{padding-top:18px}.score{font-size:13px}.pill{padding:8px}.card{border-radius:18px}.hero p{font-size:16px}}
+  </style>
 </head>
 <body>
-  <h1>Selamat Datang ke IQBjak</h1>
-  <p>Permainan kuiz interaktif pengetahuan umum.</p>
-  <button onclick="alert('Kuiz akan dimulakan!')">
-    Mulakan Kuiz
-  </button>
+  <main class="wrap">
+    <header><div class="logo">🧭 IQBjak</div><div class="score"><div class="pill">🏆 <span id="score">0</span></div><div class="pill">🔥 <span id="streak">0</span></div></div></header>
+    <section class="hero"><small>Belajar • Bermain • Menang</small><h1>Kuiz Pengetahuan Umum</h1><p>Uji pengetahuan anda dan temui fakta menarik dalam setiap soalan.</p></section>
+    <div class="categories" id="categories" aria-label="Kategori kuiz"></div>
+    <section class="card" id="quiz" aria-live="polite">
+      <div id="question-view">
+        <div class="top"><span id="counter"></span><span>🗺️</span></div><div class="bar"><span id="progress"></span></div>
+        <span class="tag" id="tag"></span><h2 id="question"></h2><div class="options" id="options"></div>
+        <div id="feedback" class="feedback hidden"></div><button id="action" disabled>Jawab</button>
+      </div>
+      <div id="result" class="result hidden"><div class="medal">🏅</div><h2>Syabas, penjelajah ilmu!</h2><p id="summary"></p><button id="restart" class="option" style="text-align:center;width:100%">Main Semula</button></div>
+    </section>
+  </main>
+  <script>
+    const data=[
+      {c:'Geografi',q:'Apakah ibu negara Malaysia?',o:['Kuala Lumpur','Putrajaya','Johor Bahru','Kota Kinabalu'],a:0,f:'Kuala Lumpur ialah ibu negara, manakala Putrajaya ialah pusat pentadbiran Persekutuan.'},
+      {c:'Sains',q:'Planet manakah dikenali sebagai Planet Merah?',o:['Zuhrah','Marikh','Musytari','Utarid'],a:1,f:'Marikh kelihatan merah kerana besi oksida pada permukaannya.'},
+      {c:'Sejarah',q:'Malaysia dibentuk secara rasmi pada tahun berapa?',o:['1957','1961','1963','1965'],a:2,f:'Malaysia dibentuk pada 16 September 1963.'},
+      {c:'Budaya',q:'Tarian Sumazau terkenal dalam kalangan masyarakat mana?',o:['Iban','Kadazan-Dusun','Melanau','Bidayuh'],a:1,f:'Sumazau ialah tarian tradisional masyarakat Kadazan-Dusun di Sabah.'},
+      {c:'Geografi',q:'Gunung tertinggi di Malaysia ialah…',o:['Gunung Tahan','Gunung Trusmadi','Gunung Kinabalu','Gunung Murud'],a:2,f:'Gunung Kinabalu di Sabah berketinggian 4,095.2 meter.'},
+      {c:'Sains',q:'Apakah gas paling banyak dalam atmosfera Bumi?',o:['Oksigen','Nitrogen','Karbon dioksida','Hidrogen'],a:1,f:'Kira-kira 78% atmosfera Bumi terdiri daripada nitrogen.'},
+      {c:'Sejarah',q:'Siapakah Bapa Kemerdekaan Malaysia?',o:['Tun Abdul Razak','Tunku Abdul Rahman','Tun Dr. Ismail','Tun Hussein Onn'],a:1,f:'Tunku Abdul Rahman mengetuai usaha menuju kemerdekaan Persekutuan Tanah Melayu.'},
+      {c:'Budaya',q:'Alat muzik tradisional Sabah yang diperbuat daripada buluh ialah…',o:['Sompoton','Kompang','Sape','Rebab'],a:0,f:'Sompoton ialah organ mulut tradisional Sabah yang menggunakan paip buluh.'}
+    ];
+    const cats=['Campuran','Sains','Geografi','Sejarah','Budaya']; let category='Campuran',quiz=[],i=0,pick=null,checked=false,score=0,streak=0;
+    const $=id=>document.getElementById(id);
+    function setupCats(){ $('categories').innerHTML=cats.map(c=>`<button data-c="${c}" class="${c===category?'active':''}">${c}</button>`).join(''); document.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{category=b.dataset.c;reset()}) }
+    function reset(){quiz=category==='Campuran'?[...data]:data.filter(x=>x.c===category);i=0;pick=null;checked=false;score=0;streak=0;$('score').textContent=0;$('streak').textContent=0;$('result').classList.add('hidden');$('question-view').classList.remove('hidden');setupCats();render()}
+    function render(){const x=quiz[i];$('counter').textContent=`Soalan ${i+1} daripada ${quiz.length}`;$('progress').style.width=`${(i+1)/quiz.length*100}%`;$('tag').textContent=x.c;$('question').textContent=x.q;$('options').innerHTML=x.o.map((o,n)=>`<button class="option" data-n="${n}">${n+1}. ${o}</button>`).join('');document.querySelectorAll('[data-n]').forEach(b=>b.onclick=()=>{if(checked)return;pick=+b.dataset.n;document.querySelectorAll('[data-n]').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');$('action').disabled=false});$('feedback').className='feedback hidden';$('action').textContent='Jawab';$('action').disabled=true}
+    $('action').onclick=()=>{const x=quiz[i];if(!checked){checked=true;document.querySelectorAll('[data-n]').forEach((b,n)=>{b.disabled=true;if(n===x.a)b.classList.add('correct');if(n===pick&&n!==x.a)b.classList.add('wrong')});const ok=pick===x.a;if(ok){score+=100;streak++}else streak=0;$('score').textContent=score;$('streak').textContent=streak;$('feedback').className='feedback '+(ok?'':'bad');$('feedback').innerHTML=`<strong>${ok?'Tepat sekali!':'Belum tepat.'}</strong> ${x.f}`;$('action').textContent=i===quiz.length-1?'Lihat Keputusan':'Soalan Seterusnya'}else{if(++i>=quiz.length)return finish();pick=null;checked=false;render()}}
+    function finish(){$('question-view').classList.add('hidden');$('result').classList.remove('hidden');$('summary').innerHTML=`Anda memperoleh <strong>${score} mata</strong> daripada ${quiz.length} soalan.`}
+    $('restart').onclick=reset;setupCats();reset();
+  </script>
 </body>
 </html>
