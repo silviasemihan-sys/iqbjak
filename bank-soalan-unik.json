@@ -1,0 +1,1605 @@
+{
+  "questionCount": 100,
+  "questions": [
+    {
+      "id": "TS001",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Saya sebuah agensi yang mengurus dan melindungi taman negeri di Sabah. Siapakah saya?",
+      "options": [
+        "Taman-Taman Sabah",
+        "Jabatan Perhutanan Sabah",
+        "Sabah Tourism Board",
+        "Jabatan Muzium Sabah"
+      ],
+      "answer": 0,
+      "answerText": "Taman-Taman Sabah",
+      "explanation": "Taman-Taman Sabah diurus oleh Lembaga Pemegang Amanah Taman-Taman Sabah.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS002",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Apakah nama badan pemegang amanah yang bertanggungjawab terhadap taman-taman negeri Sabah?",
+      "options": [
+        "Taman-Taman Sabah",
+        "Jabatan Perhutanan Sabah",
+        "Sabah Tourism Board",
+        "Jabatan Muzium Sabah"
+      ],
+      "answer": 0,
+      "answerText": "Taman-Taman Sabah",
+      "explanation": "Taman-Taman Sabah diurus oleh Lembaga Pemegang Amanah Taman-Taman Sabah.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS003",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Saya undang-undang utama yang menyelaras pengurusan taman negeri dan diluluskan pada tahun 1984. Apakah saya?",
+      "options": [
+        "Enakmen Taman 1984",
+        "Akta Perhutanan 1968",
+        "Akta Warisan 2005",
+        "Enakmen Pelancongan 1998"
+      ],
+      "answer": 0,
+      "answerText": "Enakmen Taman 1984",
+      "explanation": "Enakmen Taman 1984 menyelaras kawalan dan pengurusan taman di Sabah.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS004",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Enakmen manakah menjadi asas utama pengurusan taman negeri Sabah?",
+      "options": [
+        "Enakmen Taman 1984",
+        "Akta Perhutanan 1968",
+        "Akta Warisan 2005",
+        "Enakmen Pelancongan 1998"
+      ],
+      "answer": 0,
+      "answerText": "Enakmen Taman 1984",
+      "explanation": "Enakmen Taman 1984 menyelaras kawalan dan pengurusan taman di Sabah.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS005",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Visi saya membayangkan rakyat Sabah hidup selaras dengan alam. Apakah frasa utamanya?",
+      "options": [
+        "Alam semula jadi",
+        "Teknologi moden",
+        "Perindustrian",
+        "Perdagangan"
+      ],
+      "answer": 0,
+      "answerText": "Alam semula jadi",
+      "explanation": "Visi rasmi Taman-Taman Sabah ialah rakyat Sabah hidup harmoni dengan alam semula jadi.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS006",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Lengkapkan visi Taman-Taman Sabah: Rakyat Sabah hidup harmoni dengan…",
+      "options": [
+        "Alam semula jadi",
+        "Teknologi moden",
+        "Perindustrian",
+        "Perdagangan"
+      ],
+      "answer": 0,
+      "answerText": "Alam semula jadi",
+      "explanation": "Visi rasmi Taman-Taman Sabah ialah rakyat Sabah hidup harmoni dengan alam semula jadi.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS007",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Misi saya melindungi kawasan bernilai semula jadi sebagai warisan untuk masa kini dan hadapan. Apakah fokus saya?",
+      "options": [
+        "Pemuliharaan warisan semula jadi",
+        "Pembinaan pusat beli-belah",
+        "Perlombongan mineral",
+        "Pembangunan perumahan"
+      ],
+      "answer": 0,
+      "answerText": "Pemuliharaan warisan semula jadi",
+      "explanation": "Misinya mengekalkan kawasan bernilai semula jadi sebagai warisan untuk manfaat rakyat.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS008",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Apakah fokus utama misi Taman-Taman Sabah?",
+      "options": [
+        "Pemuliharaan warisan semula jadi",
+        "Pembinaan pusat beli-belah",
+        "Perlombongan mineral",
+        "Pembangunan perumahan"
+      ],
+      "answer": 0,
+      "answerText": "Pemuliharaan warisan semula jadi",
+      "explanation": "Misinya mengekalkan kawasan bernilai semula jadi sebagai warisan untuk manfaat rakyat.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS009",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Saya ordinan awal yang mula berkuat kuasa pada 11 Mei 1962. Apakah nama saya?",
+      "options": [
+        "Ordinan Taman Negara 1962",
+        "Enakmen Taman 1984",
+        "Akta Hidupan Liar 2010",
+        "Ordinan Tanah 1930"
+      ],
+      "answer": 0,
+      "answerText": "Ordinan Taman Negara 1962",
+      "explanation": "Ordinan Taman Negara 1962 menjadi asas awal penubuhan taman negara di Sabah.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS010",
+      "topic": "Agensi",
+      "type": "teka-teki",
+      "question": "Apakah perundangan taman negara yang mula berkuat kuasa pada tahun 1962?",
+      "options": [
+        "Ordinan Taman Negara 1962",
+        "Enakmen Taman 1984",
+        "Akta Hidupan Liar 2010",
+        "Ordinan Tanah 1930"
+      ],
+      "answer": 0,
+      "answerText": "Ordinan Taman Negara 1962",
+      "explanation": "Ordinan Taman Negara 1962 menjadi asas awal penubuhan taman negara di Sabah.",
+      "source": "https://www.sabahparks.org.my/about-us"
+    },
+    {
+      "id": "TS011",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Saya taman pertama di Sabah, diwartakan pada 1964 dan menaungi gunung tertinggi Malaysia. Siapakah saya?",
+      "options": [
+        "Taman Kinabalu",
+        "Taman Bukit Tawau",
+        "Taman Pulau Tiga",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Kinabalu",
+      "explanation": "Taman Kinabalu diwartakan pada 1964 dan menempatkan Gunung Kinabalu.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS012",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Taman manakah menjadi taman pertama Sabah dan menempatkan Gunung Kinabalu?",
+      "options": [
+        "Taman Kinabalu",
+        "Taman Bukit Tawau",
+        "Taman Pulau Tiga",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Kinabalu",
+      "explanation": "Taman Kinabalu diwartakan pada 1964 dan menempatkan Gunung Kinabalu.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS013",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Puncak saya setinggi 4,095.2 meter dan tertinggi di Malaysia. Apakah nama saya?",
+      "options": [
+        "Gunung Kinabalu",
+        "Gunung Trusmadi",
+        "Gunung Alab",
+        "Gunung Tambuyukon"
+      ],
+      "answer": 0,
+      "answerText": "Gunung Kinabalu",
+      "explanation": "Gunung Kinabalu berketinggian 4,095.2 meter.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS014",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Apakah nama gunung setinggi 4,095.2 meter di Taman Kinabalu?",
+      "options": [
+        "Gunung Kinabalu",
+        "Gunung Trusmadi",
+        "Gunung Alab",
+        "Gunung Tambuyukon"
+      ],
+      "answer": 0,
+      "answerText": "Gunung Kinabalu",
+      "explanation": "Gunung Kinabalu berketinggian 4,095.2 meter.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS015",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Keluasan saya 754 kilometer persegi dan saya Tapak Warisan Dunia. Taman apakah saya?",
+      "options": [
+        "Taman Kinabalu",
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Kinabalu",
+      "explanation": "Taman Kinabalu meliputi kira-kira 754 kilometer persegi.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS016",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Taman Warisan Dunia manakah berkeluasan kira-kira 754 kilometer persegi?",
+      "options": [
+        "Taman Kinabalu",
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Kinabalu",
+      "explanation": "Taman Kinabalu meliputi kira-kira 754 kilometer persegi.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS017",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Saya kawasan mata air panas yang dinamakan sempena buluh gergasi. Siapakah saya?",
+      "options": [
+        "Poring",
+        "Mesilau",
+        "Inobong",
+        "Mahua"
+      ],
+      "answer": 0,
+      "answerText": "Poring",
+      "explanation": "Poring dinamakan sempena sejenis buluh gergasi dan terkenal dengan mata air panas.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS018",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Apakah nama sub-stesen Taman Kinabalu yang terkenal dengan mata air panas sulfur?",
+      "options": [
+        "Poring",
+        "Mesilau",
+        "Inobong",
+        "Mahua"
+      ],
+      "answer": 0,
+      "answerText": "Poring",
+      "explanation": "Poring dinamakan sempena sejenis buluh gergasi dan terkenal dengan mata air panas.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS019",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Saya periuk kera gergasi yang terkenal di Mesilau dan boleh menampung sehingga dua liter. Apakah saya?",
+      "options": [
+        "Nepenthes rajah",
+        "Rafflesia keithii",
+        "Shorea faguetiana",
+        "Ficus benjamina"
+      ],
+      "answer": 0,
+      "answerText": "Nepenthes rajah",
+      "explanation": "Nepenthes rajah ialah antara periuk kera terbesar dan terdapat di Mesilau.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS020",
+      "topic": "Taman Kinabalu",
+      "type": "teka-teki",
+      "question": "Apakah spesies periuk kera gergasi yang terdapat di Mesilau?",
+      "options": [
+        "Nepenthes rajah",
+        "Rafflesia keithii",
+        "Shorea faguetiana",
+        "Ficus benjamina"
+      ],
+      "answer": 0,
+      "answerText": "Nepenthes rajah",
+      "explanation": "Nepenthes rajah ialah antara periuk kera terbesar dan terdapat di Mesilau.",
+      "source": "https://www.sabahparks.org.my/kinabalu-park"
+    },
+    {
+      "id": "TS021",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Saya taman laut hanya sekitar tiga kilometer dari Kota Kinabalu dan mempunyai lima pulau. Siapakah saya?",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Tun Sakaran",
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman terletak di Teluk Gaya, kira-kira 3 km dari Kota Kinabalu.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS022",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Taman manakah terletak di Teluk Gaya berhampiran Kota Kinabalu?",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Tun Sakaran",
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman terletak di Teluk Gaya, kira-kira 3 km dari Kota Kinabalu.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS023",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Gaya, Manukan, Mamutik, Sapi dan Sulug ialah ahli keluarga saya. Apakah saya?",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Tun Mustapha",
+        "Taman Pulau Penyu",
+        "Taman Sipadan"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman merangkumi lima pulau tersebut.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS024",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Lima pulau Gaya, Manukan, Mamutik, Sapi dan Sulug membentuk taman yang mana?",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Tun Mustapha",
+        "Taman Pulau Penyu",
+        "Taman Sipadan"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman merangkumi lima pulau tersebut.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS025",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Saya diwartakan pada 1974 sebagai taman kedua Sabah. Taman apakah saya?",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Kinabalu",
+        "Taman Pulau Tiga",
+        "Taman Bukit Tawau"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman diwartakan pada 1974.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS026",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Taman kedua Sabah yang diwartakan pada 1974 ialah…",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Kinabalu",
+        "Taman Pulau Tiga",
+        "Taman Bukit Tawau"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman diwartakan pada 1974.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS027",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Keluasan saya kira-kira 50 kilometer persegi termasuk pulau, terumbu dan laut. Siapakah saya?",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Pulau Tiga",
+        "Taman Sipadan",
+        "Taman Pulau Penyu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman meliputi sekitar 50 kilometer persegi.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS028",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Taman laut berhampiran Kota Kinabalu yang meliputi kira-kira 50 km² ialah…",
+      "options": [
+        "Taman Tunku Abdul Rahman",
+        "Taman Pulau Tiga",
+        "Taman Sipadan",
+        "Taman Pulau Penyu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tunku Abdul Rahman",
+      "explanation": "Taman Tunku Abdul Rahman meliputi sekitar 50 kilometer persegi.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS029",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Dalam kalangan lima pulau taman ini, saya satu-satunya yang mempunyai hutan dipterokarpa pantai tidak terganggu. Pulau apakah saya?",
+      "options": [
+        "Pulau Gaya",
+        "Pulau Sapi",
+        "Pulau Mamutik",
+        "Pulau Sulug"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Gaya",
+      "explanation": "Pulau Gaya mempunyai hutan dipterokarpa pantai dan paya bakau yang tidak terganggu.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS030",
+      "topic": "Taman Tunku Abdul Rahman",
+      "type": "teka-teki",
+      "question": "Pulau manakah di Taman Tunku Abdul Rahman mempunyai hutan dipterokarpa pantai tidak terganggu?",
+      "options": [
+        "Pulau Gaya",
+        "Pulau Sapi",
+        "Pulau Mamutik",
+        "Pulau Sulug"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Gaya",
+      "explanation": "Pulau Gaya mempunyai hutan dipterokarpa pantai dan paya bakau yang tidak terganggu.",
+      "source": "https://sabahparks.org.my/tunku-abdul-rahman-park"
+    },
+    {
+      "id": "TS031",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Selingan, Gulisan dan Bakungan Kechil membentuk taman saya. Apakah nama taman ini?",
+      "options": [
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga",
+        "Taman Tun Sakaran",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Penyu",
+      "explanation": "Taman Pulau Penyu terdiri daripada tiga pulau tersebut.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS032",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Taman manakah terdiri daripada Selingan, Gulisan dan Bakungan Kechil?",
+      "options": [
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga",
+        "Taman Tun Sakaran",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Penyu",
+      "explanation": "Taman Pulau Penyu terdiri daripada tiga pulau tersebut.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS033",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Saya terletak kira-kira 40 kilometer di utara Sandakan. Siapakah saya?",
+      "options": [
+        "Taman Pulau Penyu",
+        "Taman Sipadan",
+        "Taman Pulau Tiga",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Penyu",
+      "explanation": "Taman Pulau Penyu terletak kira-kira 40 km di utara Sandakan.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS034",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Taman pemuliharaan penyu manakah terletak di utara Sandakan?",
+      "options": [
+        "Taman Pulau Penyu",
+        "Taman Sipadan",
+        "Taman Pulau Tiga",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Penyu",
+      "explanation": "Taman Pulau Penyu terletak kira-kira 40 km di utara Sandakan.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS035",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Penyu hijau dan penyu sisik datang bertelur di pantai saya. Taman apakah saya?",
+      "options": [
+        "Penyu hijau dan penyu sisik",
+        "Penyu belimbing dan tuntung",
+        "Penyu agar dan labi-labi",
+        "Penyu pipih dan dugong"
+      ],
+      "answer": 0,
+      "answerText": "Penyu hijau dan penyu sisik",
+      "explanation": "Penyu hijau dan penyu sisik ialah tarikan pemuliharaan utama taman ini.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS036",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Dua spesies penyu utama yang dilindungi di Taman Pulau Penyu ialah…",
+      "options": [
+        "Penyu hijau dan penyu sisik",
+        "Penyu belimbing dan tuntung",
+        "Penyu agar dan labi-labi",
+        "Penyu pipih dan dugong"
+      ],
+      "answer": 0,
+      "answerText": "Penyu hijau dan penyu sisik",
+      "explanation": "Penyu hijau dan penyu sisik ialah tarikan pemuliharaan utama taman ini.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS037",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Saya pulau terkecil dalam taman ini, hanya sekitar 1.6 hektar. Siapakah saya?",
+      "options": [
+        "Pulau Gulisan",
+        "Pulau Selingan",
+        "Pulau Bakungan Kechil",
+        "Pulau Libaran"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Gulisan",
+      "explanation": "Pulau Gulisan ialah yang terkecil dengan keluasan daratan sekitar 1.6 hektar.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS038",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Pulau terkecil dalam Taman Pulau Penyu ialah…",
+      "options": [
+        "Pulau Gulisan",
+        "Pulau Selingan",
+        "Pulau Bakungan Kechil",
+        "Pulau Libaran"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Gulisan",
+      "explanation": "Pulau Gulisan ialah yang terkecil dengan keluasan daratan sekitar 1.6 hektar.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS039",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Saya pulau terbesar dalam taman ini dan mempunyai gunung berapi lumpur aktif. Pulau apakah saya?",
+      "options": [
+        "Bakungan Kechil",
+        "Gulisan",
+        "Selingan",
+        "Mamutik"
+      ],
+      "answer": 0,
+      "answerText": "Bakungan Kechil",
+      "explanation": "Bakungan Kechil ialah pulau terbesar dan mempunyai gunung berapi lumpur aktif.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS040",
+      "topic": "Taman Pulau Penyu",
+      "type": "teka-teki",
+      "question": "Pulau manakah di Taman Pulau Penyu mempunyai gunung berapi lumpur aktif?",
+      "options": [
+        "Bakungan Kechil",
+        "Gulisan",
+        "Selingan",
+        "Mamutik"
+      ],
+      "answer": 0,
+      "answerText": "Bakungan Kechil",
+      "explanation": "Bakungan Kechil ialah pulau terbesar dan mempunyai gunung berapi lumpur aktif.",
+      "source": "https://sabahparks.org.my/turtle-islands-park"
+    },
+    {
+      "id": "TS041",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Saya taman di utara Kuala Penyu yang dikenali sebagai Survivor Islands. Siapakah saya?",
+      "options": [
+        "Taman Pulau Tiga",
+        "Taman Sipadan",
+        "Taman Tun Sakaran",
+        "Taman Kinabalu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Tiga",
+      "explanation": "Pulau Tiga dikenali sebagai Survivor Islands selepas penggambaran siri televisyen pada 1996.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS042",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Taman manakah menjadi lokasi penggambaran siri Survivor pada 1996?",
+      "options": [
+        "Taman Pulau Tiga",
+        "Taman Sipadan",
+        "Taman Tun Sakaran",
+        "Taman Kinabalu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Tiga",
+      "explanation": "Pulau Tiga dikenali sebagai Survivor Islands selepas penggambaran siri televisyen pada 1996.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS043",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Saya diwartakan pada 1978 dan kebanyakan kawasan saya ialah laut. Apakah saya?",
+      "options": [
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu",
+        "Taman Bukit Tawau",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Tiga",
+      "explanation": "Taman Pulau Tiga diwartakan pada 1978 dan meliputi sekitar 158 km².",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS044",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Taman yang diwartakan pada 1978 dengan keluasan sekitar 158 km² ialah…",
+      "options": [
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu",
+        "Taman Bukit Tawau",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Tiga",
+      "explanation": "Taman Pulau Tiga diwartakan pada 1978 dan meliputi sekitar 158 km².",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS045",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Pulau Tiga, Kalampunian Besar dan Kalampunian Damit membentuk taman apakah?",
+      "options": [
+        "Tiga, Kalampunian Besar dan Kalampunian Damit",
+        "Gaya, Sapi dan Sulug",
+        "Selingan, Gulisan dan Sapi",
+        "Sipadan, Mabul dan Kapalai"
+      ],
+      "answer": 0,
+      "answerText": "Tiga, Kalampunian Besar dan Kalampunian Damit",
+      "explanation": "Taman ini terdiri daripada Pulau Tiga, Kalampunian Besar dan Kalampunian Damit.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS046",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Tiga pulau manakah membentuk Taman Pulau Tiga?",
+      "options": [
+        "Tiga, Kalampunian Besar dan Kalampunian Damit",
+        "Gaya, Sapi dan Sulug",
+        "Selingan, Gulisan dan Sapi",
+        "Sipadan, Mabul dan Kapalai"
+      ],
+      "answer": 0,
+      "answerText": "Tiga, Kalampunian Besar dan Kalampunian Damit",
+      "explanation": "Taman ini terdiri daripada Pulau Tiga, Kalampunian Besar dan Kalampunian Damit.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS047",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Saya juga dipanggil Pulau Ular kerana menjadi tempat pembiakan ular laut. Siapakah saya?",
+      "options": [
+        "Kalampunian Damit",
+        "Kalampunian Besar",
+        "Pulau Tiga",
+        "Pulau Selingan"
+      ],
+      "answer": 0,
+      "answerText": "Kalampunian Damit",
+      "explanation": "Kalampunian Damit dikenali sebagai Pulau Ular.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS048",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Pulau manakah dalam Taman Pulau Tiga dikenali sebagai Pulau Ular?",
+      "options": [
+        "Kalampunian Damit",
+        "Kalampunian Besar",
+        "Pulau Tiga",
+        "Pulau Selingan"
+      ],
+      "answer": 0,
+      "answerText": "Kalampunian Damit",
+      "explanation": "Kalampunian Damit dikenali sebagai Pulau Ular.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS049",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Tarikan saya menggelegak dengan lumpur dan gas dari bawah tanah. Apakah tarikan ini?",
+      "options": [
+        "Gunung berapi lumpur",
+        "Gua batu kapur",
+        "Tasik glasier",
+        "Geyser ais"
+      ],
+      "answer": 0,
+      "answerText": "Gunung berapi lumpur",
+      "explanation": "Gunung berapi lumpur aktif ialah antara tarikan utama Pulau Tiga.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS050",
+      "topic": "Taman Pulau Tiga",
+      "type": "teka-teki",
+      "question": "Apakah tarikan geologi popular di Pulau Tiga?",
+      "options": [
+        "Gunung berapi lumpur",
+        "Gua batu kapur",
+        "Tasik glasier",
+        "Geyser ais"
+      ],
+      "answer": 0,
+      "answerText": "Gunung berapi lumpur",
+      "explanation": "Gunung berapi lumpur aktif ialah antara tarikan utama Pulau Tiga.",
+      "source": "https://sabahparks.org.my/pulau-tiga-park"
+    },
+    {
+      "id": "TS051",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Saya taman kira-kira 24 kilometer barat laut bandar Tawau. Siapakah saya?",
+      "options": [
+        "Taman Bukit Tawau",
+        "Taman Kinabalu",
+        "Taman Pulau Tiga",
+        "Taman Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Bukit Tawau",
+      "explanation": "Taman Bukit Tawau terletak kira-kira 24 km barat laut Tawau.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS052",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Taman manakah terletak sekitar 24 km barat laut Tawau?",
+      "options": [
+        "Taman Bukit Tawau",
+        "Taman Kinabalu",
+        "Taman Pulau Tiga",
+        "Taman Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Bukit Tawau",
+      "explanation": "Taman Bukit Tawau terletak kira-kira 24 km barat laut Tawau.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS053",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Saya melindungi kawasan tadahan air untuk Tawau dan Semenanjung Semporna. Apakah saya?",
+      "options": [
+        "Melindungi sumber tadahan air",
+        "Membina pelabuhan",
+        "Mengembangkan perlombongan",
+        "Membuka ladang"
+      ],
+      "answer": 0,
+      "answerText": "Melindungi sumber tadahan air",
+      "explanation": "Taman Bukit Tawau diwartakan untuk melindungi sumber tadahan air.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS054",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Apakah tujuan asal utama pewartaan Taman Bukit Tawau?",
+      "options": [
+        "Melindungi sumber tadahan air",
+        "Membina pelabuhan",
+        "Mengembangkan perlombongan",
+        "Membuka ladang"
+      ],
+      "answer": 0,
+      "answerText": "Melindungi sumber tadahan air",
+      "explanation": "Taman Bukit Tawau diwartakan untuk melindungi sumber tadahan air.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS055",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Sekurang-kurangnya tujuh sungai utama bermula dari kawasan saya. Taman apakah saya?",
+      "options": [
+        "Taman Bukit Tawau",
+        "Taman Pulau Penyu",
+        "Taman Sipadan",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Bukit Tawau",
+      "explanation": "Sekurang-kurangnya tujuh sungai utama berasal dari Taman Bukit Tawau.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS056",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Taman manakah menjadi hulu sekurang-kurangnya tujuh sungai utama?",
+      "options": [
+        "Taman Bukit Tawau",
+        "Taman Pulau Penyu",
+        "Taman Sipadan",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Bukit Tawau",
+      "explanation": "Sekurang-kurangnya tujuh sungai utama berasal dari Taman Bukit Tawau.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS057",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Saya bukit setinggi kira-kira 530 meter dan mercu tanda utama taman. Siapakah saya?",
+      "options": [
+        "Bukit Bombalai",
+        "Gunung Alab",
+        "Bukit Kokol",
+        "Bukit Padang"
+      ],
+      "answer": 0,
+      "answerText": "Bukit Bombalai",
+      "explanation": "Bukit Bombalai ialah mercu tanda utama Taman Bukit Tawau.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS058",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Apakah nama mercu tanda berketinggian sekitar 530 m di Taman Bukit Tawau?",
+      "options": [
+        "Bukit Bombalai",
+        "Gunung Alab",
+        "Bukit Kokol",
+        "Bukit Padang"
+      ],
+      "answer": 0,
+      "answerText": "Bukit Bombalai",
+      "explanation": "Bukit Bombalai ialah mercu tanda utama Taman Bukit Tawau.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS059",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Saya pokok Seraya Siput Kuning setinggi 88.32 meter yang pernah direkodkan luar biasa. Apakah nama saintifik saya?",
+      "options": [
+        "Shorea faguetiana",
+        "Nepenthes rajah",
+        "Rafflesia keithii",
+        "Ficus racemosa"
+      ],
+      "answer": 0,
+      "answerText": "Shorea faguetiana",
+      "explanation": "Shorea faguetiana ialah spesies Seraya Siput Kuning yang direkodkan setinggi 88.32 m.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS060",
+      "topic": "Taman Bukit Tawau",
+      "type": "teka-teki",
+      "question": "Pokok tinggi di Taman Bukit Tawau itu daripada spesies mana?",
+      "options": [
+        "Shorea faguetiana",
+        "Nepenthes rajah",
+        "Rafflesia keithii",
+        "Ficus racemosa"
+      ],
+      "answer": 0,
+      "answerText": "Shorea faguetiana",
+      "explanation": "Shorea faguetiana ialah spesies Seraya Siput Kuning yang direkodkan setinggi 88.32 m.",
+      "source": "https://sabahparks.org.my/tawau-hills-park"
+    },
+    {
+      "id": "TS061",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Saya taman daratan negeri terbesar, memanjang kira-kira 75 km di pantai barat Sabah. Siapakah saya?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Kinabalu",
+        "Taman Bukit Tawau",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Taman Banjaran Crocker ialah taman daratan negeri terbesar Sabah.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS062",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Taman daratan negeri terbesar Sabah ialah…",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Kinabalu",
+        "Taman Bukit Tawau",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Taman Banjaran Crocker ialah taman daratan negeri terbesar Sabah.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS063",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Keluasan saya 139,919 hektar, hampir dua kali saiz Singapura. Taman apakah saya?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Tun Mustapha",
+        "Taman Kinabalu",
+        "Taman Bukit Tawau"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Taman Banjaran Crocker meliputi sekitar 139,919 hektar.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS064",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Taman manakah berkeluasan kira-kira 139,919 hektar?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Tun Mustapha",
+        "Taman Kinabalu",
+        "Taman Bukit Tawau"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Taman Banjaran Crocker meliputi sekitar 139,919 hektar.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS065",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Puncak Gunung Alab setinggi kira-kira 2,050 meter berada dalam julat ketinggian saya. Siapakah saya?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Pulau Tiga",
+        "Taman Tunku Abdul Rahman",
+        "Taman Sipadan"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Gunung Alab ialah antara kawasan tinggi dalam Taman Banjaran Crocker.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS066",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Gunung Alab merupakan puncak penting dalam taman mana?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Pulau Tiga",
+        "Taman Tunku Abdul Rahman",
+        "Taman Sipadan"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Gunung Alab ialah antara kawasan tinggi dalam Taman Banjaran Crocker.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS067",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Saya kawasan tadahan penting dan hulu lima sungai utama di pantai barat. Taman apakah saya?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Pulau Penyu",
+        "Taman Tun Sakaran",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Taman Banjaran Crocker ialah kawasan tadahan air penting.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS068",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Taman manakah melindungi hulu lima sungai utama pantai barat Sabah?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Pulau Penyu",
+        "Taman Tun Sakaran",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Taman Banjaran Crocker ialah kawasan tadahan air penting.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS069",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Fernarium saya menempatkan ratusan spesies paku-pakis. Di pusat alam taman manakah saya berada?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Sipadan",
+        "Taman Pulau Penyu",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Fernarium dan Insecterium terdapat di kawasan Taman Banjaran Crocker.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS070",
+      "topic": "Taman Banjaran Crocker",
+      "type": "teka-teki",
+      "question": "Fernarium dan Insecterium merupakan tarikan di taman mana?",
+      "options": [
+        "Taman Banjaran Crocker",
+        "Taman Sipadan",
+        "Taman Pulau Penyu",
+        "Taman Tun Mustapha"
+      ],
+      "answer": 0,
+      "answerText": "Taman Banjaran Crocker",
+      "explanation": "Fernarium dan Insecterium terdapat di kawasan Taman Banjaran Crocker.",
+      "source": "https://www.sabahparks.org.my/crocker-range-park"
+    },
+    {
+      "id": "TS071",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Saya taman marin berhampiran Semporna dan mempunyai lapan pulau. Siapakah saya?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Tun Mustapha",
+        "Taman Tunku Abdul Rahman",
+        "Taman Pulau Penyu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Taman Marin Tun Sakaran terletak berhampiran Semporna di pintu masuk Teluk Darvel.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS072",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Taman marin manakah terletak di pintu masuk Teluk Darvel?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Tun Mustapha",
+        "Taman Tunku Abdul Rahman",
+        "Taman Pulau Penyu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Taman Marin Tun Sakaran terletak berhampiran Semporna di pintu masuk Teluk Darvel.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS073",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Saya diwartakan pada Julai 2004 sebagai taman ketujuh Sabah. Apakah saya?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Sipadan",
+        "Taman Tun Mustapha",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Taman Marin Tun Sakaran diwartakan pada Julai 2004.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS074",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Taman ketujuh Sabah yang diwartakan pada 2004 ialah…",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Sipadan",
+        "Taman Tun Mustapha",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Taman Marin Tun Sakaran diwartakan pada Julai 2004.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS075",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Bodgaya, Boheydulang dan Sibuan ialah sebahagian daripada lapan pulau saya. Taman apakah saya?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Bodgaya dan Boheydulang merupakan pulau dalam Taman Marin Tun Sakaran.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS076",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Pulau Bodgaya dan Boheydulang terletak dalam taman mana?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Bodgaya dan Boheydulang merupakan pulau dalam Taman Marin Tun Sakaran.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS077",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Kawasan saya meliputi kira-kira 340 km² laut dan terumbu serta 10 km² daratan. Siapakah saya?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Sipadan",
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Taman Marin Tun Sakaran meliputi laut, terumbu dan kawasan daratan pulau.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS078",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Taman marin dengan sekitar 340 km² laut dan 10 km² darat ialah…",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Sipadan",
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Taman Marin Tun Sakaran meliputi laut, terumbu dan kawasan daratan pulau.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS079",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Bahan gunung berapi kuarterner membentuk pulau-pulau saya. Taman apakah saya?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Tun Mustapha",
+        "Taman Pulau Penyu",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Pulau-pulau Taman Marin Tun Sakaran terbentuk daripada bahan piroklastik gunung berapi.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS080",
+      "topic": "Taman Marin Tun Sakaran",
+      "type": "teka-teki",
+      "question": "Pulau-pulau yang terbentuk daripada bahan piroklastik terdapat di taman mana?",
+      "options": [
+        "Taman Marin Tun Sakaran",
+        "Taman Tun Mustapha",
+        "Taman Pulau Penyu",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Marin Tun Sakaran",
+      "explanation": "Pulau-pulau Taman Marin Tun Sakaran terbentuk daripada bahan piroklastik gunung berapi.",
+      "source": "https://sabahparks.org.my/tun-sakaran-marine-park"
+    },
+    {
+      "id": "TS081",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Saya satu-satunya pulau lautan Malaysia dan naik sekitar 600 meter dari dasar laut. Siapakah saya?",
+      "options": [
+        "Pulau Sipadan",
+        "Pulau Gaya",
+        "Pulau Tiga",
+        "Pulau Selingan"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Sipadan",
+      "explanation": "Sipadan ialah satu-satunya pulau lautan Malaysia.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS082",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Pulau lautan tunggal Malaysia ialah…",
+      "options": [
+        "Pulau Sipadan",
+        "Pulau Gaya",
+        "Pulau Tiga",
+        "Pulau Selingan"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Sipadan",
+      "explanation": "Sipadan ialah satu-satunya pulau lautan Malaysia.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS083",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Saya terbentuk daripada karang hidup di atas kon gunung berapi. Pulau apakah saya?",
+      "options": [
+        "Pulau Sipadan",
+        "Pulau Manukan",
+        "Pulau Gulisan",
+        "Pulau Kalampunian"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Sipadan",
+      "explanation": "Sipadan terbentuk daripada karang hidup di atas kon gunung berapi.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS084",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Pulau manakah terbentuk daripada karang yang tumbuh di atas kon gunung berapi?",
+      "options": [
+        "Pulau Sipadan",
+        "Pulau Manukan",
+        "Pulau Gulisan",
+        "Pulau Kalampunian"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Sipadan",
+      "explanation": "Sipadan terbentuk daripada karang hidup di atas kon gunung berapi.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS085",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Lebih 400 spesies ikan telah diklasifikasikan dalam ekosistem saya. Taman apakah saya?",
+      "options": [
+        "Taman Pulau Sipadan",
+        "Taman Pulau Tiga",
+        "Taman Kinabalu",
+        "Taman Banjaran Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Sipadan",
+      "explanation": "Ekosistem Sipadan mempunyai lebih 400 spesies ikan yang direkodkan.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS086",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Taman marin yang terkenal dengan lebih 400 spesies ikan ialah…",
+      "options": [
+        "Taman Pulau Sipadan",
+        "Taman Pulau Tiga",
+        "Taman Kinabalu",
+        "Taman Banjaran Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Pulau Sipadan",
+      "explanation": "Ekosistem Sipadan mempunyai lebih 400 spesies ikan yang direkodkan.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS087",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Saya terletak di Laut Sulawesi, berhampiran pantai timur Borneo Malaysia. Siapakah saya?",
+      "options": [
+        "Laut Sulawesi",
+        "Laut China Selatan",
+        "Laut Sulu",
+        "Laut Andaman"
+      ],
+      "answer": 0,
+      "answerText": "Laut Sulawesi",
+      "explanation": "Sipadan terletak di Laut Sulawesi.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS088",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Pulau Sipadan terletak di laut mana?",
+      "options": [
+        "Laut Sulawesi",
+        "Laut China Selatan",
+        "Laut Sulu",
+        "Laut Andaman"
+      ],
+      "answer": 0,
+      "answerText": "Laut Sulawesi",
+      "explanation": "Sipadan terletak di Laut Sulawesi.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS089",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Saya pernah diisytiharkan sebagai santuari burung seawal 1933. Pulau apakah saya?",
+      "options": [
+        "Pulau Sipadan",
+        "Pulau Sapi",
+        "Pulau Tiga",
+        "Pulau Gaya"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Sipadan",
+      "explanation": "Sipadan telah diisytiharkan sebagai santuari burung pada 1933.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS090",
+      "topic": "Taman Pulau Sipadan",
+      "type": "teka-teki",
+      "question": "Pulau manakah menjadi santuari burung sejak 1933?",
+      "options": [
+        "Pulau Sipadan",
+        "Pulau Sapi",
+        "Pulau Tiga",
+        "Pulau Gaya"
+      ],
+      "answer": 0,
+      "answerText": "Pulau Sipadan",
+      "explanation": "Sipadan telah diisytiharkan sebagai santuari burung pada 1933.",
+      "source": "https://www.sabahparks.org.my/sipadan-island-park"
+    },
+    {
+      "id": "TS091",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Saya kawasan perlindungan marin pelbagai guna terbesar di Malaysia. Siapakah saya?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Marin Tun Sakaran",
+        "Taman Pulau Sipadan",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha ialah kawasan perlindungan marin pelbagai guna terbesar Malaysia.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS092",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Taman marin pelbagai guna terbesar Malaysia ialah…",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Marin Tun Sakaran",
+        "Taman Pulau Sipadan",
+        "Taman Tunku Abdul Rahman"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha ialah kawasan perlindungan marin pelbagai guna terbesar Malaysia.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS093",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Saya merentasi perairan Kudat, Kota Marudu dan Pitas. Apakah saya?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu",
+        "Taman Kinabalu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha merentasi Kudat, Kota Marudu dan Pitas.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS094",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Taman manakah meliputi tiga daerah Kudat, Kota Marudu dan Pitas?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Pulau Tiga",
+        "Taman Pulau Penyu",
+        "Taman Kinabalu"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha merentasi Kudat, Kota Marudu dan Pitas.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS095",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Saya ditubuhkan secara rasmi pada 19 Mei 2016. Taman apakah saya?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Pulau Sipadan",
+        "Taman Marin Tun Sakaran",
+        "Taman Banjaran Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha ditubuhkan secara rasmi pada 19 Mei 2016.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS096",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Taman Sabah yang ditubuhkan pada 19 Mei 2016 ialah…",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Pulau Sipadan",
+        "Taman Marin Tun Sakaran",
+        "Taman Banjaran Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha ditubuhkan secara rasmi pada 19 Mei 2016.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS097",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Keluasan laut saya kira-kira 898,762.76 hektar. Siapakah saya?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Tunku Abdul Rahman",
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha meliputi sekitar 898,762.76 hektar kawasan marin.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS098",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Taman marin manakah meliputi hampir 900,000 hektar?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Tunku Abdul Rahman",
+        "Taman Pulau Penyu",
+        "Taman Pulau Tiga"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Taman Tun Mustapha meliputi sekitar 898,762.76 hektar kawasan marin.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS099",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Saya melindungi bakau, terumbu karang, perairan pesisir dan penyu sambil menyokong sumber komuniti. Taman apakah saya?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Kinabalu",
+        "Taman Bukit Tawau",
+        "Taman Banjaran Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Matlamat Taman Tun Mustapha merangkumi pemuliharaan dan penggunaan sumber secara lestari.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    },
+    {
+      "id": "TS100",
+      "topic": "Taman Tun Mustapha",
+      "type": "teka-teki",
+      "question": "Taman manakah menggabungkan pemuliharaan dengan penggunaan sumber marin secara lestari?",
+      "options": [
+        "Taman Tun Mustapha",
+        "Taman Kinabalu",
+        "Taman Bukit Tawau",
+        "Taman Banjaran Crocker"
+      ],
+      "answer": 0,
+      "answerText": "Taman Tun Mustapha",
+      "explanation": "Matlamat Taman Tun Mustapha merangkumi pemuliharaan dan penggunaan sumber secara lestari.",
+      "source": "https://sabahparks.org.my/tun-mustapha-park"
+    }
+  ]
+}
