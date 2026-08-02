@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="IQBjak ialah permainan kuiz interaktif pengetahuan am untuk semua peringkat umur.">
+  <title>IQBjak | Pengetahuan Am</title>
+  <style>
+    :root{--cream:#fff8e8;--green:#173f35;--orange:#e76f51;--gold:#f4c95d;--sage:#88b895;--white:#fff;--red:#c84f39}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:linear-gradient(160deg,#fffdf6,var(--cream));color:var(--green);font-family:Arial,sans-serif}.wrap{width:min(100% - 28px,900px);margin:auto;padding:28px 0 45px}header{display:flex;justify-content:space-between;align-items:center;margin-bottom:32px}.logo{font-family:Georgia,serif;font-size:32px;font-weight:700}.score{display:flex;gap:10px}.pill{background:#fff;border:1px solid #ddd0b7;border-radius:14px;padding:10px 14px;font-weight:700;box-shadow:0 5px 18px #70522515}.hero{text-align:center;margin-bottom:24px}.hero small{letter-spacing:.18em;text-transform:uppercase;color:#5b8764;font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(42px,8vw,68px);margin:10px 0}.hero p{color:#53605a;font-size:18px}.categories{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:22px 0}.categories button,.option,#action{font:inherit;cursor:pointer}.categories button{border:1px solid #9ab9a1;background:#fff;border-radius:999px;padding:9px 15px;color:var(--green);font-weight:700}.categories button.active{background:#e7f3e5;border-color:#4f865d}.card{background:#ffffffdd;border:1px solid #eee3cf;border-radius:24px;padding:clamp(20px,5vw,38px);box-shadow:0 18px 50px #68471e20}.top{display:flex;justify-content:space-between;font-weight:700}.bar{height:7px;background:#e9e4da;border-radius:10px;margin:13px 0 22px;overflow:hidden}.bar span{display:block;height:100%;background:var(--gold);transition:width .25s}.tag{display:inline-block;border:1px solid #82bdd0;border-radius:20px;padding:5px 12px;color:#26718b;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}h2{font-size:clamp(23px,4vw,31px);line-height:1.3}.options{display:grid;gap:11px}.option{text-align:left;border:2px solid #e3ddd1;background:white;border-radius:13px;padding:15px;color:#293b35;font-size:17px}.option:hover,.option.selected{border-color:#d6a42c;background:#fff8dc}.option.correct{border-color:#4f9661;background:#e9f7e9}.option.wrong{border-color:var(--red);background:#fff0eb}.feedback{margin-top:14px;padding:12px;border-radius:10px;background:#eef6e9;line-height:1.45}.feedback.bad{background:#fff0eb;color:#873523}#action{width:100%;border:0;border-radius:13px;padding:16px;margin-top:16px;background:linear-gradient(90deg,#ffc83d,#efad23);color:#49380b;font-size:19px;font-weight:800}#action:disabled{opacity:.45;cursor:not-allowed}.result{text-align:center;padding:28px 0}.result .medal{font-size:70px}.hidden{display:none}@media(max-width:560px){.wrap{padding-top:18px}.score{font-size:13px}.pill{padding:8px}.card{border-radius:18px}.hero p{font-size:16px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header><div class="logo">🧭 IQBjak</div><div class="score"><div class="pill">🏆 <span id="score">0</span></div><div class="pill">🔥 <span id="streak">0</span></div></div></header>
+    <section class="hero"><small>Belajar • Bermain • Menang</small><h1>Pengetahuan Am</h1><p>Uji pengetahuan anda dan temui fakta menarik dalam setiap soalan.</p></section>
+    <div class="categories" id="categories" aria-label="Kategori kuiz"></div>
+    <section class="card" id="quiz" aria-live="polite">
+      <div id="question-view">
+        <div class="top"><span id="counter"></span><span>🗺️</span></div><div class="bar"><span id="progress"></span></div>
+        <span class="tag" id="tag"></span><h2 id="question"></h2><div class="options" id="options"></div>
+        <div id="feedback" class="feedback hidden"></div><button id="action" disabled>Jawab</button>
+      </div>
+      <div id="result" class="result hidden"><div class="medal">🏅</div><h2>Syabas, penjelajah ilmu!</h2><p id="summary"></p><button id="restart" class="option" style="text-align:center;width:100%">Main Semula</button></div>
+    </section>
+  </main>
+  <script>
+    const data=[
+      {c:'Geografi',q:'Apakah ibu negara Malaysia?',o:['Kuala Lumpur','Putrajaya','Johor Bahru','Kota Kinabalu'],a:0,f:'Kuala Lumpur ialah ibu negara, manakala Putrajaya ialah pusat pentadbiran Persekutuan.'},
+      {c:'Sains',q:'Planet manakah dikenali sebagai Planet Merah?',o:['Zuhrah','Marikh','Musytari','Utarid'],a:1,f:'Marikh kelihatan merah kerana besi oksida pada permukaannya.'},
+      {c:'Sejarah',q:'Malaysia dibentuk secara rasmi pada tahun berapa?',o:['1957','1961','1963','1965'],a:2,f:'Malaysia dibentuk pada 16 September 1963.'},
+      {c:'Budaya',q:'Tarian Sumazau terkenal dalam kalangan masyarakat mana?',o:['Iban','Kadazan-Dusun','Melanau','Bidayuh'],a:1,f:'Sumazau ialah tarian tradisional masyarakat Kadazan-Dusun di Sabah.'},
+      {c:'Geografi',q:'Gunung tertinggi di Malaysia ialah…',o:['Gunung Tahan','Gunung Trusmadi','Gunung Kinabalu','Gunung Murud'],a:2,f:'Gunung Kinabalu di Sabah berketinggian 4,095.2 meter.'},
+      {c:'Sains',q:'Apakah gas paling banyak dalam atmosfera Bumi?',o:['Oksigen','Nitrogen','Karbon dioksida','Hidrogen'],a:1,f:'Kira-kira 78% atmosfera Bumi terdiri daripada nitrogen.'},
+      {c:'Sejarah',q:'Siapakah Bapa Kemerdekaan Malaysia?',o:['Tun Abdul Razak','Tunku Abdul Rahman','Tun Dr. Ismail','Tun Hussein Onn'],a:1,f:'Tunku Abdul Rahman mengetuai usaha menuju kemerdekaan Persekutuan Tanah Melayu.'},
+      {c:'Budaya',q:'Alat muzik tradisional Sabah yang diperbuat daripada buluh ialah…',o:['Sompoton','Kompang','Sape','Rebab'],a:0,f:'Sompoton ialah organ mulut tradisional Sabah yang menggunakan paip buluh.'},
+
+      {c:'Sains',q:'Apakah organ yang mengepam darah ke seluruh badan?',o:['Paru-paru','Jantung','Hati','Buah pinggang'],a:1,f:'Jantung mengepam darah melalui sistem peredaran darah.'},
+      {c:'Sains',q:'Apakah proses tumbuhan menghasilkan makanan?',o:['Respirasi','Fotosintesis','Transpirasi','Pencernaan'],a:1,f:'Fotosintesis menggunakan cahaya, air dan karbon dioksida untuk menghasilkan glukosa.'},
+      {c:'Sains',q:'Berapakah takat beku air tulen pada tekanan biasa?',o:['0°C','10°C','50°C','100°C'],a:0,f:'Air tulen membeku pada suhu 0°C pada tekanan atmosfera biasa.'},
+      {c:'Sains',q:'Apakah unit SI bagi daya?',o:['Joule','Watt','Newton','Pascal'],a:2,f:'Daya diukur dalam unit newton, dengan simbol N.'},
+      {c:'Sains',q:'Bahagian sel manakah mengandungi bahan genetik?',o:['Nukleus','Dinding sel','Vakuol','Sitoplasma'],a:0,f:'Nukleus menyimpan sebahagian besar DNA dalam sel eukariot.'},
+      {c:'Sains',q:'Apakah nama satelit semula jadi Bumi?',o:['Titan','Bulan','Europa','Phobos'],a:1,f:'Bulan ialah satu-satunya satelit semula jadi Bumi.'},
+      {c:'Sains',q:'Vitamin manakah boleh dihasilkan oleh kulit dengan bantuan cahaya matahari?',o:['Vitamin A','Vitamin B12','Vitamin C','Vitamin D'],a:3,f:'Pendedahan cahaya matahari membantu kulit menghasilkan vitamin D.'},
+      {c:'Sains',q:'Apakah simbol kimia bagi emas?',o:['Ag','Au','Fe','Cu'],a:1,f:'Simbol Au berasal daripada perkataan Latin aurum.'},
+      {c:'Sains',q:'Apakah haiwan darat yang paling besar?',o:['Badak sumbu','Gajah Afrika','Zirafah','Beruang kutub'],a:1,f:'Gajah Afrika ialah haiwan darat terbesar di dunia.'},
+      {c:'Sains',q:'Apakah tenaga yang tersimpan dalam makanan?',o:['Tenaga kimia','Tenaga bunyi','Tenaga cahaya','Tenaga nuklear'],a:0,f:'Makanan menyimpan tenaga kimia yang dibebaskan melalui respirasi.'},
+      {c:'Sains',q:'Planet terbesar dalam Sistem Suria ialah…',o:['Zuhal','Bumi','Musytari','Neptun'],a:2,f:'Musytari ialah planet terbesar dalam Sistem Suria.'},
+
+      {c:'Geografi',q:'Benua terbesar di dunia ialah…',o:['Afrika','Asia','Eropah','Amerika Selatan'],a:1,f:'Asia ialah benua terbesar dari segi keluasan dan penduduk.'},
+      {c:'Geografi',q:'Lautan terbesar di dunia ialah…',o:['Lautan Hindi','Lautan Atlantik','Lautan Pasifik','Lautan Artik'],a:2,f:'Lautan Pasifik ialah lautan terbesar dan terdalam di dunia.'},
+      {c:'Geografi',q:'Negeri manakah dikenali sebagai Negeri di Bawah Bayu?',o:['Sarawak','Sabah','Perlis','Pahang'],a:1,f:'Sabah terkenal dengan gelaran Negeri di Bawah Bayu.'},
+      {c:'Geografi',q:'Sungai terpanjang di Malaysia ialah…',o:['Sungai Rajang','Sungai Pahang','Sungai Kinabatangan','Sungai Perak'],a:0,f:'Sungai Rajang di Sarawak ialah sungai terpanjang di Malaysia.'},
+      {c:'Geografi',q:'Apakah ibu negeri Sabah?',o:['Sandakan','Tawau','Kota Kinabalu','Keningau'],a:2,f:'Kota Kinabalu ialah ibu negeri Sabah.'},
+      {c:'Geografi',q:'Negara manakah berbentuk seperti kasut but pada peta?',o:['Sepanyol','Itali','Greece','Portugal'],a:1,f:'Semenanjung Itali sering digambarkan berbentuk seperti kasut but.'},
+      {c:'Geografi',q:'Garisan khatulistiwa membahagikan Bumi kepada…',o:['Timur dan barat','Utara dan selatan','Darat dan laut','Panas dan sejuk'],a:1,f:'Khatulistiwa membahagikan Bumi kepada Hemisfera Utara dan Hemisfera Selatan.'},
+      {c:'Geografi',q:'Apakah ibu negara Jepun?',o:['Kyoto','Osaka','Tokyo','Nagoya'],a:2,f:'Tokyo ialah ibu negara dan bandar raya terbesar Jepun.'},
+      {c:'Geografi',q:'Gurun Sahara terletak di benua mana?',o:['Asia','Afrika','Australia','Amerika Selatan'],a:1,f:'Gurun Sahara merentasi sebahagian besar Afrika Utara.'},
+      {c:'Geografi',q:'Apakah nama selat yang memisahkan Semenanjung Malaysia dan Sumatera?',o:['Selat Tebrau','Selat Melaka','Selat Sunda','Selat Lombok'],a:1,f:'Selat Melaka terletak antara Semenanjung Malaysia dan Pulau Sumatera.'},
+      {c:'Geografi',q:'Negara manakah mempunyai bandar raya Bangkok sebagai ibu negara?',o:['Vietnam','Thailand','Kemboja','Laos'],a:1,f:'Bangkok ialah ibu negara Thailand.'},
+
+      {c:'Sejarah',q:'Bilakah Persekutuan Tanah Melayu mencapai kemerdekaan?',o:['31 Ogos 1957','16 September 1963','31 Ogos 1963','16 September 1957'],a:0,f:'Kemerdekaan Persekutuan Tanah Melayu diisytiharkan pada 31 Ogos 1957.'},
+      {c:'Sejarah',q:'Di manakah pengisytiharan kemerdekaan 1957 berlangsung?',o:['Stadium Negara','Stadium Merdeka','Dataran Merdeka','Bangunan Parlimen'],a:1,f:'Pengisytiharan kemerdekaan berlangsung di Stadium Merdeka, Kuala Lumpur.'},
+      {c:'Sejarah',q:'Siapakah Perdana Menteri Malaysia yang kedua?',o:['Tun Hussein Onn','Tun Abdul Razak','Tun Dr. Ismail','Tun Abdul Ghafar Baba'],a:1,f:'Tun Abdul Razak menjadi Perdana Menteri Malaysia yang kedua.'},
+      {c:'Sejarah',q:'Apakah nama kapal yang dikaitkan dengan pelayaran Christopher Columbus pada 1492?',o:['Mayflower','Santa Maria','Endeavour','Victoria'],a:1,f:'Santa Maria ialah kapal terbesar daripada tiga kapal dalam pelayaran Columbus pada 1492.'},
+      {c:'Sejarah',q:'Tamadun Mesir purba berkembang di sepanjang sungai mana?',o:['Sungai Nil','Sungai Amazon','Sungai Indus','Sungai Danube'],a:0,f:'Sungai Nil menyokong pertanian dan kehidupan tamadun Mesir purba.'},
+      {c:'Sejarah',q:'Siapakah tokoh yang mengasaskan Kesultanan Melayu Melaka?',o:['Parameswara','Hang Tuah','Tun Perak','Sultan Mansur Shah'],a:0,f:'Parameswara secara umum dianggap sebagai pengasas Kesultanan Melayu Melaka.'},
+      {c:'Sejarah',q:'Hari Malaysia disambut pada tarikh berapa?',o:['31 Ogos','16 September','1 Mei','5 Jun'],a:1,f:'Hari Malaysia disambut pada 16 September setiap tahun.'},
+      {c:'Sejarah',q:'Perang Dunia Kedua berakhir pada tahun berapa?',o:['1943','1944','1945','1946'],a:2,f:'Perang Dunia Kedua berakhir pada tahun 1945.'},
+      {c:'Sejarah',q:'Apakah nama tulisan yang digunakan pada batu bersurat Mesir purba?',o:['Cuneiform','Hieroglif','Rumi','Brahmi'],a:1,f:'Hieroglif ialah sistem tulisan bergambar Mesir purba.'},
+      {c:'Sejarah',q:'Siapakah pemerintah wanita yang terkenal dalam sejarah Kelantan?',o:['Tun Fatimah','Raden Ajeng Kartini','Cik Siti Wan Kembang','Tun Teja'],a:2,f:'Cik Siti Wan Kembang dikenali sebagai pemerintah wanita yang masyhur dalam sejarah Kelantan.'},
+
+      {c:'Budaya',q:'Apakah pakaian tradisional wanita Melayu?',o:['Baju kurung','Cheongsam','Sari','Ngepan'],a:0,f:'Baju kurung ialah antara pakaian tradisional utama wanita Melayu.'},
+      {c:'Budaya',q:'Perayaan Kaamatan disambut terutamanya di negeri mana?',o:['Sabah','Selangor','Perak','Terengganu'],a:0,f:'Pesta Kaamatan ialah perayaan menuai yang penting di Sabah.'},
+      {c:'Budaya',q:'Hari Gawai disambut oleh masyarakat di negeri mana?',o:['Johor','Sarawak','Perlis','Melaka'],a:1,f:'Hari Gawai diraikan oleh masyarakat Dayak di Sarawak.'},
+      {c:'Budaya',q:'Apakah alat muzik utama yang sering dimainkan dalam tarian singa?',o:['Piano dan biola','Gendang, simbal dan gong','Sape dan seruling','Gitar dan rebana'],a:1,f:'Gendang, simbal dan gong menghasilkan irama utama persembahan tarian singa.'},
+      {c:'Budaya',q:'Wayang kulit menggunakan apa untuk menghasilkan bayang?',o:['Patung kayu tebal','Patung kulit pipih','Topeng logam','Anak patung kain'],a:1,f:'Watak wayang kulit dibuat daripada kulit yang dipotong dan dihias.'},
+      {c:'Budaya',q:'Apakah makanan tradisional Sabah yang diperbuat daripada isi ikan mentah?',o:['Hinava','Rendang','Laksa','Lemang'],a:0,f:'Hinava biasanya disediakan dengan ikan mentah, limau, halia dan bahan lain.'},
+      {c:'Budaya',q:'Tarian Ngajat berasal daripada masyarakat mana?',o:['Iban','Bajau','Siam','Punjabi'],a:0,f:'Ngajat ialah tarian tradisional masyarakat Iban di Sarawak.'},
+      {c:'Budaya',q:'Apakah permainan tradisional yang menggunakan papan berlubang dan buah kecil?',o:['Sepak raga','Congkak','Gasing','Batu seremban'],a:1,f:'Congkak dimainkan menggunakan papan berlubang dan buah congkak.'},
+      {c:'Budaya',q:'Apakah rumah tradisional masyarakat Rungus di Sabah?',o:['Rumah panjang','Rumah Minangkabau','Rumah kutai','Rumah limas'],a:0,f:'Masyarakat Rungus terkenal dengan rumah panjang tradisional mereka.'},
+      {c:'Budaya',q:'Kompang biasanya dimainkan dengan cara…',o:['Ditiup','Dipetik','Dipalu dengan tangan','Digesek'],a:2,f:'Kompang ialah alat perkusi yang dipalu menggunakan tangan.'}
+    ];
+    const cats=['Campuran','Sains','Geografi','Sejarah','Budaya']; let category='Campuran',quiz=[],i=0,pick=null,checked=false,score=0,streak=0;
+    const $=id=>document.getElementById(id);
+    function setupCats(){ $('categories').innerHTML=cats.map(c=>`<button data-c="${c}" class="${c===category?'active':''}">${c}</button>`).join(''); document.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{category=b.dataset.c;reset()}) }
+    function reset(){quiz=category==='Campuran'?[...data]:data.filter(x=>x.c===category);i=0;pick=null;checked=false;score=0;streak=0;$('score').textContent=0;$('streak').textContent=0;$('result').classList.add('hidden');$('question-view').classList.remove('hidden');setupCats();render()}
+    function render(){const x=quiz[i];$('counter').textContent=`Soalan ${i+1} daripada ${quiz.length}`;$('progress').style.width=`${(i+1)/quiz.length*100}%`;$('tag').textContent=x.c;$('question').textContent=x.q;$('options').innerHTML=x.o.map((o,n)=>`<button class="option" data-n="${n}">${n+1}. ${o}</button>`).join('');document.querySelectorAll('[data-n]').forEach(b=>b.onclick=()=>{if(checked)return;pick=+b.dataset.n;document.querySelectorAll('[data-n]').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');$('action').disabled=false});$('feedback').className='feedback hidden';$('action').textContent='Jawab';$('action').disabled=true}
+    $('action').onclick=()=>{const x=quiz[i];if(!checked){checked=true;document.querySelectorAll('[data-n]').forEach((b,n)=>{b.disabled=true;if(n===x.a)b.classList.add('correct');if(n===pick&&n!==x.a)b.classList.add('wrong')});const ok=pick===x.a;if(ok){score+=100;streak++}else streak=0;$('score').textContent=score;$('streak').textContent=streak;$('feedback').className='feedback '+(ok?'':'bad');$('feedback').innerHTML=`<strong>${ok?'Tepat sekali!':'Belum tepat.'}</strong> ${x.f}`;$('action').textContent=i===quiz.length-1?'Lihat Keputusan':'Soalan Seterusnya'}else{if(++i>=quiz.length)return finish();pick=null;checked=false;render()}}
+    function finish(){$('question-view').classList.add('hidden');$('result').classList.remove('hidden');$('summary').innerHTML=`Anda memperoleh <strong>${score} mata</strong> daripada ${quiz.length} soalan.`}
+    $('restart').onclick=reset;setupCats();reset();
+  </script>
+</body>
+</html>
